@@ -1,5 +1,4 @@
 print("Reading file content:")
-a=open("sample.txt","r")
 try:
     a = open("sample.txt", "r")
     for l_no,line in enumerate(a,start=1):
