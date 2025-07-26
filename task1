@@ -1,0 +1,8 @@
+print("Reading file content:")
+a=open("sample.txt","r")
+try:
+    a = open("sample.txt", "r")
+    for l_no,line in enumerate(a,start=1):
+        print("line ",l_no,": ",line.strip())
+except FileNotFoundError:
+    print("Error:The file 'Sample.txt was not found")
